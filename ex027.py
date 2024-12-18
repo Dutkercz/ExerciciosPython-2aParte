@@ -1,0 +1,10 @@
+print('Mostre na tela o primeiro e o ultimo nome de uma pessoa, separadamente.')
+nome=str(input('Digite seu nome completo: ')).strip().title()
+
+nome2=nome.split()
+print('Nome completo: {} '.format(nome))
+print('Então seu primeiro nome é {}'.format(nome2[0]))
+print('E seu ultimo nome é {}'.format(nome2[len(nome2)-1]))
+#ou então usa o [-1] para acessar o ultimo item da lista .format(nome[-1])
+#print('Seu Ultimo nome é {}'.format(nome2[-1]))
+print('Seu nome tem um total de {} letras'.format (len(nome)-nome.count(' ')))

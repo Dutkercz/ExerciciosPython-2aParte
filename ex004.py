@@ -1,0 +1,6 @@
+print('Digite algo pelo teclado e descubra tudo sobre ele')
+n=input('Digite algo!')
+print('O tip primitivo desse valor é' ,type(n))
+print('O que você digitou esta em minusculo',n.islower())
+print('O Que você digitou é um número?' ,n.isnumeric())
+print(n.isprintable())

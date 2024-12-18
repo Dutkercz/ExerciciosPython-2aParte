@@ -1,0 +1,5 @@
+print('Veja quanto de tinta você precisa para pintar sua parede')
+d1=float(input('Qual a largura de sua parede? Em cm = '))
+d2=float(input('Qual a altura da sua parede? Em cm = '))
+m2=(d1/100)*(d2/100)
+print('A área da sua parede é {:.2f}m2 , e você ira precisar de {:.2f}L de tinta para pintar toda ela'.format(m2, (m2/2)))
