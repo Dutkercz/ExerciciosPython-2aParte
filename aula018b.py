@@ -11,7 +11,7 @@ print(galera)
 print()
 print()
 turma = [['cris',32], ['jenifer',29], ['alvaro',5], ['maria',2]]
-print(turma)#mostra todo mundo
+print(turma)#mostra todos mundo
 print(turma[0])#mostra só cris,32
 print(turma[0][0])#mostra só o 32
 #usando o for para mostrar só nome ou a idade
